@@ -23,6 +23,7 @@ nav {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: oklch(80% 3% 200);
+  margin-bottom: 1.5rem;
 }
 
 nav a {
@@ -91,4 +92,29 @@ label {
 
 button {
   grid-column: 1 / -1;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1rem;
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+.projects h2 {
+    margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
 }
