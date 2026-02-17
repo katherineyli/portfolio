@@ -118,3 +118,47 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
 }
+
+.resume-name {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.resume-contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 1.5rem;
+}
+
+.resume-contact-item {  
+  text-align: center;
+}
+
+.section-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+  padding-bottom: 0.5em;
+}
+
+.role-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -0.8rem;
+}
+
+.role-date {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.major {
+    font-style: italic;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.role-location {
+    font-weight: normal;
+}
